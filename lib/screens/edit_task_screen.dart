@@ -69,7 +69,7 @@ class _EditTaskScreenState extends State<EditTaskScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Edit Task'),
-        backgroundColor: Colors.orange.shade700,
+        backgroundColor: Colors.blue.shade700,
         foregroundColor: Colors.white,
         elevation: 0,
       ),
@@ -78,7 +78,7 @@ class _EditTaskScreenState extends State<EditTaskScreen> {
           gradient: LinearGradient(
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
-            colors: [Colors.orange.shade50, Colors.yellow.shade50],
+            colors: [Colors.purple.shade100, Colors.blue.shade100],
           ),
         ),
         child: Padding(

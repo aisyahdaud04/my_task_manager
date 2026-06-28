@@ -35,7 +35,7 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
             content: Text('Task added successfully!'),
-            backgroundColor: Colors.green,
+            backgroundColor: Color.fromARGB(255, 22, 22, 236),
           ),
         );
         Navigator.pop(context);
@@ -59,7 +59,7 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Add Task'),
-        backgroundColor: Colors.green.shade700,
+        backgroundColor: Colors.blue.shade700,
         foregroundColor: Colors.white,
         elevation: 0,
       ),
@@ -68,7 +68,7 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
           gradient: LinearGradient(
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
-            colors: [Colors.green.shade50, Colors.blue.shade50],
+            colors: [Colors.purple.shade100, Colors.blue.shade100],
           ),
         ),
         child: Padding(
